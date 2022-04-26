@@ -135,5 +135,40 @@ for($i = 1; $i <= $n;$i++){
 echo "<br>";
 }
 
+echo "<br>";
+echo "<br>";
+
+// $flag = false;
+// for($i = 1; $i > 0;){
+//     for($j = 1; $j < 12; $j++){
+//             echo chr(64 + $i);
+        
+
+    
+//     }
+
+//     echo "<br>";
+//     if($i < 5 && !$flag){
+//         $i++;
+//     }else{
+//         $flag = true;
+//         $i--;
+//     }
+// }
+
+
+for($i = 0, $k = 0, $l = 2; $i < 5; $k++){
+            if($k == abs((2) - $i)){
+                for($j = 0; $j < 2 * abs(abs($l) - (2)) + 1; $j++)
+                     echo chr(65 + $j);
+
+                echo"<br>";
+                $i++;
+                $k = -1;
+                $l--;
+                continue;
+            }
+            echo"&#160;";
+        }
 
 ?>
