@@ -25,9 +25,9 @@
         }
     }
 
-    $quatubeh = new mohamemd("apple" , "red" , "apple" );
-    $quatubeh->message();
-    echo $quatubeh->name;
+    $a = new mohamemd("apple" , "red" , "apple" );
+    $a->message();
+    echo $a->name;
 
 
 
