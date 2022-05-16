@@ -11,6 +11,8 @@ include 'connect.php';
 
 // $query = "INSERT INTO `courses` (`id`, `name`, `description`, `time`, `location`, `teacher name`) VALUES (null, '$name', '$description', '$time', '$location', '$teacherName')";
 
+// mysqli_query($connection , $query);
+
 // $query = "UPDATE courses
 // SET name = 'Alfred Schmidt'
 // WHERE id = 1;";
