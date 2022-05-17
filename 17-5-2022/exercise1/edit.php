@@ -30,7 +30,7 @@ if($statement->execute()){
 }else{
     print_r($statement->errorInfo());
 }
-}else{
+}else if(isset($_POST["catagory"])){
 
     try{
         $catagory = $_POST["catagory"];
@@ -43,5 +43,7 @@ if($statement->execute()){
         throw $e;
     }
 
+}else{
+    die('Only  logged in users can access this page!'); 
 }
 ?>
