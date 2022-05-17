@@ -40,6 +40,15 @@ if(!$statement->execute()){
     </select>
     <button type="submit" class="btn btn-dark">add</button>
 </form>
+
+<form action="edit.php" method="POST" style="margin: 20px 0;">
+<label for="Catagory">Catagory</label>
+    <input type="text" class="form-control" id="Catagory" aria-describedby="emailHelp" placeholder="Enter Catagory" name="catagory" required>
+    <small id="emailHelp" class="form-text text-muted">Enter the name of the Catagory</small>
+    <br>
+    <button type="submit" class="btn btn-dark">add</button>
+</form>
+
 </div>
 <script>
 
